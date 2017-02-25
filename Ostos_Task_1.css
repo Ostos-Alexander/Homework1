@@ -1,13 +1,45 @@
-body{ width: 2000px; background-color: #E6E6FA; }
-div.list { width: 800px;	height: 1000px;
-    background: white;
-    outline: 1px solid white; margin-left: 600px;
-    margin-bottom: 100px;}
-div.propusk {clear: both; height: 20px;}   
-p.resume {  text-indent:180px; font-size:120%;}
-p.kontact { text-indent:180px; font-size:120%; color:blue; }
-p.line { border-style: solid; border-color: white white #E6E6FA white ; 
-border-width: 2px; width: 700px; margin: auto;}
-h1 { text-align:center; }
-img { width:304px;height: 228px; }
-ul { margin-left: 180px; font-size:120%; }
+body { 
+	width: 2000px; 
+	background-color: #E6E6FA; 
+}
+.list { 
+	width: 800px;	
+	height: 1000px;
+    background: #fff;
+    outline: 1px solid #fff;
+    margin-left: 600px;
+    margin-bottom: 100px;
+}
+.image {
+	text-align: center
+}
+.space { 
+	height: 20px;
+}   
+.resume { 
+	text-indent: 180px; 
+	font-size: 120%;
+}
+.contact { 
+	text-indent: 180px; 
+	font-size: 120%; 
+	color: #0000FF;
+}
+.line { 
+	border-style: solid; 
+	border-color: #fff #fff #E6E6FA #fff ; 
+    border-width: 2px; 
+    width: 700px; 
+    margin: auto;
+}
+.heading {
+	text-align: center; 
+}
+.photo { 
+	width: 304px;
+	height: 228px;
+}
+.points { 
+	margin-left: 180px; 
+	font-size: 120%; 
+}
