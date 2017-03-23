@@ -1,0 +1,45 @@
+body { 
+	width: 2000px; 
+	background-color: #E6E6FA; 
+}
+.list { 
+	width: 800px;	
+	height: 1000px;
+    background: #fff;
+    outline: 1px solid #fff;
+    margin-left: 600px;
+    margin-bottom: 100px;
+}
+.image {
+	text-align: center
+}
+.space { 
+	height: 20px;
+}   
+.resume { 
+	text-indent: 180px; 
+	font-size: 120%;
+}
+.contact { 
+	text-indent: 180px; 
+	font-size: 120%; 
+	color: #0000FF;
+}
+.line { 
+	border-style: solid; 
+	border-color: #fff #fff #E6E6FA #fff ; 
+    border-width: 2px; 
+    width: 700px; 
+    margin: auto;
+}
+.heading {
+	text-align: center; 
+}
+.photo { 
+	width: 304px;
+	height: 228px;
+}
+.points { 
+	margin-left: 180px; 
+	font-size: 120%; 
+}
