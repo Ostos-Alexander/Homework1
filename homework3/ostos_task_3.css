@@ -26,9 +26,7 @@ body {
 	color: #ffffff;
 	margin-right: 121px;
 	float: right;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: 400;
+	font: 400 18px Arial;
 	word-spacing: 39px;
 	margin-top: 27px;
 }
@@ -38,71 +36,65 @@ body {
 .shape_2 {
 	font-size: 0;
 	width: 1200px;
-	height: 373px;
+	height: 380px;
 }
-.shape_2_1 {
+.shape_2__screen {
 	position: relative;
 	width: 600px;
-	height: 373px;
+	height: 380px;
 	display: inline-block;
 	background-color: #29292a;
 	/*background: radial-gradient(ellipse closest-corner at 891px 140px, #987c51, #494033);*/
 	/*background: radial-gradient(ellipse, closest-corner at 110px 254px, #522426, #29292a);*/ 
 	background: linear-gradient(#494033 40%, #4f2426, #494033);
 }
-.shape_2_1__school-img {
+.shape_2__screen--school-img {
 	position: absolute;
 	top: 35px;
     left: 299px;
 }
-.shape_2_1__kil-img {
+.shape_2__screen--kil-img {
 	position: absolute;
 	top: 71px;
     left: 111px;
 }
-.shape_2_1__perp-img {
+.shape_2__screen--perp-img {
 	position: absolute;
-	top: 121px;
+	top: 111px;
     left: 164px;
 }
-.shape_2_1__perp-img-copy {
+.shape_2__screen--perp-img-copy {
 	position: absolute;
-	top: 405px;
+	top: 395px;
     left: 179px;
     opacity: 0.2;
 }
 
-.shape_2_2 {
+.shape_2__text {
 	width: 600px;
-	height: 373px;
+	height: 380px;
 	display: inline-block;
 	background-color: #29292a;
 	background: radial-gradient(ellipse closest-corner at 321px 140px, #987c51, #494033 80%);
 	/*background: radial-gradient(ellipse, closest-corner at 110px 254px, #522426, #29292a);*/
 	/*background: linear-gradient(155deg, #494033, #4f2426, #987c51, #494033 );*/
 }
-.shape_2_2__Lorest {
+.shape_2__text--Lorest {
 	position: absolute;
     width: 350px;
 	height: 20px;
 	text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.6);
 	color: #ffffff;
-	font-family: "Droid Sans";
-	font-size: 26px;
-	font-weight: 700;
-	line-height: 39px;
+	font: 700 26px/39px "Droid Sans"; 
 	margin-left: 110px;
 	margin-top: 73px;
 }
-.shape_2_2__text_Duis {
+.shape_2_2__text--Duis {
 	position: absolute;
 	width: 363px;
 	height: 93px;
-	color: #ffffff;
-	font-family: Arial;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 26px;
+	color: #ffffff; 
+	font: 400 16px/26px Arial;
 	margin-top: 120px;
 	margin-left: 110px; 
 }
@@ -112,6 +104,7 @@ body {
 	margin-left: 187px; 
 	width: 150px;
 	height: 48px;
+	border: none; 
 	border-radius: 3px;
 	background-color: #ec0d0d;
     background-image: -webkit-linear-gradient(bottom, #4290c1 0%, #60a9d4 100%);
@@ -119,9 +112,7 @@ body {
     background-image: linear-gradient(to top, #4290c1 0%, #60a9d4 100%);
 	padding: auto;
     color: #ffffff;
-	font-family: "Droid Sans";
-	font-size: 28px;
-	font-weight: 400;
+    font: 400 28px "Droid Sans";
 }
 
 /* Email's Block */
@@ -141,9 +132,7 @@ body {
 	padding-top: 30px;
     padding-left: 11px;
 	color: #373737;
-	font-family: Arial;
-	font-size: 16px;
-	font-weight: 400;
+	font: 400 16px Arial;
 }
 .shape_5 {
 	height: 42px;
@@ -156,9 +145,7 @@ body {
 	border-radius: 3px;
 	/* Style for "Email" */
 	color: #373737;
-	font-family: Arial;
-	font-size: 14px;
-	font-weight: 400;
+	font: 400 14px Arial;
 	padding-left: 16px;
 }
 .shape_5__submit {
@@ -169,9 +156,7 @@ body {
     background-image: linear-gradient(to top, #4290c1 0%, #60a9d4 100%);
     /* Style for "Submit" */
 	color: #ffffff;
-	font-family: "Droid Sans";
-	font-size: 16px;
-	font-weight: 400;
+	font: 400 16px "Droid Sans";
 	border-top: 2px solid #60a9d4;
 }
 .shape_4__shadow {
@@ -193,20 +178,17 @@ body {
 	margin-top: 30px;
 	width: 285px;
 }
-.ultrices_1 {
+.ultricies_1__head {
 	float: right;
 	color: #000000;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: 700;
+	font: 700 18px Arial;
 	margin-right: 5px;
 	margin-top: 10px;
 }
-.ultricies__neque {
+.ultricies_1__text,
+.ultricies_2__text {
 	color: #000000;
-	font-family: Arial;
-	font-size: 14px;
-	font-weight: 400;
+	font: 400 14px Arial;
 	line-height: 20px;
 	margin-top: 3px;
 }
@@ -215,6 +197,7 @@ body {
 	height: 34px;
 	margin-top: 24px;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33);
+	border: none;
 	border-radius: 3px;
 	background-color: #121814;
     background-image: -webkit-linear-gradient(bottom, #e3e3e3 0%, #ffffff 100%);
@@ -223,9 +206,7 @@ body {
     /* Style for "See More" */
     padding-left: 8px; 
 	color: #1d1d1d;
-	font-family: "Myriad Pro";
-	font-size: 16px;
-	font-weight: 400;
+	font: 400 16px "Myriad Pro";
 }
 
 /* Block2 */
@@ -236,24 +217,18 @@ body {
 	margin-top: 30px;
 	width: 285px;
 }
-.magnust_1 {
+.magnust__head {
 	float: right;
 	color: #000000;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: 700;
+	font: 700 18px Arial;
 	margin-right: 12px;
 	margin-top: 12px;
 }
-.magnust__ut {
+.magnust__text {
 	color: #000000;
-	font-family: Arial;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 20px;
+	font: 400 14px/20px Arial;
 	margin-top: 6px;
 	margin-bottom: 34px;
-    line-height: 20px;
 }
 
 /* Block3 */
@@ -264,12 +239,10 @@ body {
 	margin-top: 30px;
 	width: 275px;
 }
-.ultrices_2 {
+.ultricies_2__head {
 	float: right;
 	color: #000000;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: 700;
+	font: 700 18px Arial;
 	margin-right: 22px;
 	margin-top: 12px;
 }
@@ -294,23 +267,14 @@ body {
 	border: 7px solid #e2e0e0;
     background-color: #ffffff;
 }
-.images__layer-6 {
-	margin-top: -1px;
-}
 .terrion__magnust {
 	margin-top: -15px;
 	color: #000000;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 20px;
+	font: 700 18px/20px Arial;
 }
 .images__neque {
 	color: #000000;
-	font-family: Arial;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 20px;
+	font: 400 14px/20px Arial;
 	margin-top: 9px;
 }
 
@@ -330,10 +294,7 @@ body {
 .psd__quia {
 	margin-top: -14px;
 	color: #000000;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 20px;
+	font: 700 18px/20px Arial;
 }
 
 /* diagram */
@@ -351,9 +312,7 @@ body {
 .diagram__dolorest {
 	margin-top: -15px;
 	color: #000000;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: 700;
+	font: 700 18px Arial;
 }
 
 /* Block for Information */
@@ -379,11 +338,11 @@ body {
 }
 .about__us {
 	color: #ffffff;
-	font-family: Arial;
-	font-size: 24px;
-	font-weight: 400;
+	font: 400 24px Arial;
 }
-.information__layer-22 {
+.about__information,
+.quick__information,
+.contact__information {
 	margin-top: 13px;
 	width: 269px;
 	height: 5px;
@@ -397,10 +356,7 @@ body {
 }
 .about__text--footer {
 	color: #ffffff;
-	font-family: Arial;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 20px;
+	font: 400 14px/20px Arial;
 }
 .about__bellow {
 	margin-top: 20px;
@@ -409,6 +365,7 @@ body {
 	margin-top: 34px;
 	width: 73px;
 	height: 37px;
+	border: none; 
 	border-radius: 3px;
 	background-color: #ffffff;
     background-image: -webkit-linear-gradient(bottom, #1454ab 0%, #1d8fd5 100%);
@@ -416,9 +373,7 @@ body {
     background-image: linear-gradient(to top, #1454ab 0%, #1d8fd5 100%);
     /* Style for "More" */
 	color: #ffffff;
-	font-family: "Trebuchet MS";
-	font-size: 16px;
-	font-weight: 400;
+	font: 400 16px "Trebuchet MS";
 }
 
 /*Quick links */
@@ -431,9 +386,7 @@ body {
 }
 .quick__links {
 	color: #ffffff;
-	font-family: Arial;
-	font-size: 24px;
-	font-weight: 400;
+	font: 400 24px Arial;
 } 
 .quick__arrow {
 	margin-top: 30px;
@@ -446,9 +399,7 @@ body {
 .quick__some_menu {
 	padding-left: 8px;
 	color: #ffffff;
-	font-family: Arial;
-	font-size: 16px;
-	font-weight: 400;
+	font: 400 16px Arial;
 }
 
 /*Contact Us*/
@@ -464,6 +415,7 @@ body {
 	font-family: Arial;
 	font-size: 24px;
 	font-weight: 400;
+	font: 400 24px Arial;
 }
 .contact__shape_7 {
 	margin-top: 28px;
@@ -471,9 +423,11 @@ body {
 .contact__name {
 	width: 188px;
 	height: 32px;
-	box-shadow: 1px 1px 0 #ffffff, inset 0 1px 0 #000000;
+	/*box-shadow: 1px 1px 0 #ffffff, inset 0 1px 0 #000000;*/
+	box-shadow: inset 2px 2px 2px 2px #000;
 	background-color: #121010;
 	/*background-color: #A9A9A9;*/
+	border: none;
 	border-radius: 12px;
     background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
     background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
@@ -481,9 +435,7 @@ body {
     /* Style for "Name" */
     padding-left: 16px;
 	color: #ffffff;
-	font-family: Arial;
-	font-size: 14px;
-	font-weight: 400;
+	font: 400 14px Arial;
 }
 .contact__shape_8 {
 	margin-top: 8px;
@@ -491,9 +443,11 @@ body {
 .contact__email {
 	width: 188px;
 	height: 32px;
-	box-shadow: 1px 1px 0 #ffffff, inset 0 1px 0 #000000;
+	/*box-shadow: 1px 1px 0 #ffffff, inset 0 1px 0 #000000;*/
+	box-shadow: inset 2px 2px 2px 2px #000;
 	background-color: #121010;
 	/*background-color: #A9A9A9;*/
+	border: none;
 	border-radius: 12px;
     background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
     background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
@@ -502,9 +456,7 @@ body {
     /*padding-top: 11px;*/
     padding-left: 16px;
 	color: #ffffff;
-	font-family: Arial;
-	font-size: 14px;
-	font-weight: 400;	
+	font: 400 14px Arial;
 }
 .contact__shape_9 {
 	margin-top: 8px;
@@ -512,24 +464,51 @@ body {
 .contact__message {
 	width: 268px;
 	height: 32px;
-	box-shadow: 1px 1px 0 #ffffff, inset 0 1px 0 #000000;
+	box-shadow: inset 2px 2px 2px 2px #000;
+	resize: none;
+	border: none;
 	border-radius: 20px;
 	background-color: #0b0b0b;
     background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
     background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
     /* Style for "Your message" */
-    padding-bottom: 56px;
+    padding-top: 10px;
+    padding-bottom: 52px;
     padding-left: 16px;
 	color: #ffffff;
-	font-family: Arial;
-	font-size: 14px;
-	font-weight: 400;
+	font: 400 14px Arial;
 }
+.placeholder::-webkit-input-placeholder {
+ 	color: #fff;
+ }
+.placeholder::-moz-placeholder {
+ 	color: #fff;
+ }
+.placeholder:-moz-placeholder {
+ 	color: #fff;
+ }
+.placeholder:-ms-input-placeholder {
+ 	color: #fff;
+ }
+.placeholder:focus::-webkit-input-placeholder {
+ 	color: transparent
+ }
+ .placeholder:focus::-moz-placeholder          {
+ 	color: transparent
+ }
+ .placeholder:focus:-moz-placeholder           {
+ 	color: transparent
+ }
+ .placeholder:focus:-ms-input-placeholder      {
+ 	color: transparent
+ }
+
 .contact__shape_10 {
 	margin-top: 25px;
 	width: 73px;
 	height: 37px;
+	border: none; 
 	border-radius: 3px;
 	background-color: #ffffff;
     background-image: -webkit-linear-gradient(bottom, #1454ab 0%, #1d8fd5 100%);
@@ -537,9 +516,7 @@ body {
     background-image: linear-gradient(to top, #1454ab 0%, #1d8fd5 100%);
     /* Style for "Submit" */
 	color: #ffffff;
-	font-family: "Trebuchet MS";
-	font-size: 16px;
-	font-weight: 400;
+	font: 400 16px "Trebuchet MS";
 }
 
 /* Footer */
@@ -555,7 +532,5 @@ body {
 	padding-left: 113px;
 	padding-top: 12px;
 	color: #ffffff;
-	font-family: Arial;
-	font-size: 12px;
-	font-weight: 400;
+	font: 400 12px Arial;
 }
